@@ -1,0 +1,30 @@
+body {
+    #container {
+        font-family: 'Helvetica Neue';
+        .center {
+            h3 {
+                padding: 5px;
+                font-size: 5em;
+                text-transform: uppercase;
+                border-bottom: 1px solid grey;
+                &:hover{
+                    color: red;
+                }
+            }
+            ul {
+                border: none;
+                li {
+                    div {
+                        h6 {
+                            font-size: 1.6em;
+                            font-family: 'Lato' , sans-serif;
+                        }
+                        p {
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
